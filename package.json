@@ -1,0 +1,15 @@
+{
+  "name": "keygen.js",
+  "version": "0.1.0",
+  "description": "Generate and make public keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "devDependencies": {
+    "charenc": "0.0.1",
+    "crypt": "0.0.1"
+  }
+}
