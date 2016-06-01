@@ -12,7 +12,7 @@ function bytesToHexJ(bytes, join) {
 
 const keygen = module.exports =
 function keygen(origMessage) {
-  console.log('init:', origMessage);
+  // console.log('init:', origMessage);
   const message = utf8.stringToBytes(origMessage);
 
   const msg = bytesToWords(message);
