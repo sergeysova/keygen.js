@@ -77,22 +77,22 @@ function keygen(origMessage) {
   } // for i
 
 
-  console.log(H0, H1, H2, H3, H4, H5)
-  return bytesToHexJ([H0, H1, H2, H3, H4, H5], '-');
+  // console.log(H0, H1, H2, H3, H4, H5)
+  return bytesToHexJ([H0, H1, H2, H3, H4, H5], '-').split('-');
 }
-
-let result = keygen('LestaD');
-console.log('result:', result);
-
-console.log('\n');
-
-
-result = keygen('1234567890abcde');
-console.log('result:', result);
-result = keygen('1234567890abcdf');
-console.log('result:', result);
-
-console.log('\n');
-
-result = keygen('1234567890abcdefghijklmno0s8dfh9pa8hdfsg87hd8of7ghd07fghd807fgd87fgyd897fh698d7fgnu98d7fyh987y7s6dgf872h87fgs98df67gi7aq6gfq9763fgw897e6rgf97we6g');
-console.log('result:', result);
+//
+// let result = keygen('LestaD');
+// console.log('result:', result);
+//
+// console.log('\n');
+//
+//
+// result = keygen('1234567890abcde');
+// console.log('result:', result);
+// result = keygen('1234567890abcdf');
+// console.log('result:', result);
+//
+// console.log('\n');
+//
+// result = keygen('1234567890abcdefghijklmno0s8dfh9pa8hdfsg87hd8of7ghd07fghd807fgd87fgyd897fh698d7fgnu98d7fyh987y7s6dgf872h87fgs98df67gi7aq6gfq9763fgw897e6rgf97we6g');
+// console.log('result:', result);
