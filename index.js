@@ -6,7 +6,7 @@ function bytesToHexJ(bytes, join) {
   for (var hex = [], i = 0; i < bytes.length; i++) {
     hex.push((bytes[i] >>> 4).toString(16) + (bytes[i] & 0xF).toString(16));
   }
-  return hex.join(join || '');
+  return hex;
 }
 
 
@@ -78,7 +78,7 @@ function keygen(origMessage) {
 
 
   // console.log(H0, H1, H2, H3, H4, H5)
-  return bytesToHexJ([H0, H1, H2, H3, H4, H5], '-').split('-');
+  return bytesToHexJ([H0, H1, H2, H3, H4, H5]);
 }
 //
 // let result = keygen('LestaD');
